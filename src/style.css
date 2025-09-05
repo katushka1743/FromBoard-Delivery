@@ -1,0 +1,54 @@
+* {
+  font-size: 16px;
+  font-family: "Formular";
+  padding: 0;
+  margin: 0;
+  color: #111827;
+}
+
+:root {
+  --el: 0;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: local("Formular"), url(/src/fonts/ofont.ru_Formular.ttf);
+}
+
+@font-face {
+  font-family: "FormularBold";
+  src: local("FormularBold"), url(/src/fonts/Formular-Bold.ttf);
+}
+
+@font-face {
+  font-family: "FormularBlack";
+  src: local("FormularBlack"), url(/src/fonts/Formular-Black.ttf);
+}
+
+@font-face {
+  font-family: "FormularLight";
+  src: local("FormularLight"), url(/src/fonts/Formular-Light.ttf);
+}
+
+header {
+  margin-inline: 192px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: #8b5cf6;
+  padding: 10px 28px;
+  border-radius: 4px;
+  font-family: "FormularBold";
+  color: #f9fafb;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  margin-inline: 192px;
+  padding-top: 72px;
+}
